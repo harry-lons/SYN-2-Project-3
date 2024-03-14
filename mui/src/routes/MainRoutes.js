@@ -10,8 +10,9 @@ const DashboardDefault = Loadable(lazy(() => import('pages/dashboard')));
 // render - utilities
 const Typography = Loadable(lazy(() => import('pages/components-overview/Typography')));
 const Sdmayoral = Loadable(lazy(() => import('pages/components-overview/sd-mayoral')));
-const RunnerForm = Loadable(lazy(() => import('pages/components-overview/RunnerForm')));
-const ExampleForm = Loadable(lazy(() => import('pages/components-overview/ExampleForm')));
+const GJW = Loadable(lazy(() => import('pages/components-overview/GJW')));
+const TG = Loadable(lazy(() => import('pages/components-overview/TG')));
+const News = Loadable(lazy(() => import('pages/components-overview/news')));
 const Color = Loadable(lazy(() => import('pages/components-overview/Color')));
 const Shadow = Loadable(lazy(() => import('pages/components-overview/Shadow')));
 const AntIcons = Loadable(lazy(() => import('pages/components-overview/AntIcons')));
@@ -25,6 +26,10 @@ const MainRoutes = {
     {
       path: '/',
       element: <DashboardDefault />
+    },
+    {
+      path: '/news',
+      element: <News />
     },
     {
       path: 'color',
@@ -50,6 +55,14 @@ const MainRoutes = {
     {
       path: 'sd-mayoral',
       element: <Sdmayoral />
+    },
+    {
+      path: 'GJW',
+      element: <GJW/>
+    },
+    {
+      path: 'TG',
+      element: <TG/>
     },
     {
       path: 'icons/ant',
