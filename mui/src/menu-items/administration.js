@@ -22,28 +22,28 @@ const icons = {
 
 const administration = {
   id: 'administration',
-  title: 'Administration',
+  title: 'Races',
   type: 'group',
   children: [
     {
-      id: 'util-exampletable',
-      title: 'Runners',
+      id: 'sd-mayoral',
+      title: 'San Diego Mayoral',
       type: 'item',
-      url: '/activities',
+      url: '/sd-mayoral',
       icon: icons.FontSizeOutlined
     },
     {
-      id: 'util-exampleform',
-      title: 'Upload Scans',
+      id: 'la-mayoral',
+      title: 'Los Angeles Mayoral',
       type: 'item',
-      url: '/example-form',
+      url: '/la-mayoral',
       icon: icons.FontSizeOutlined
     },
     {
-      id: 'test',
-      title: 'harry',
+      id: 'presidential',
+      title: 'Presidential',
       type: 'item',
-      url: '/harry-test',
+      url: '/Presidential',
       icon: icons.FontSizeOutlined
     }
   ]

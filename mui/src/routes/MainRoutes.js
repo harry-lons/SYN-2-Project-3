@@ -9,7 +9,7 @@ const DashboardDefault = Loadable(lazy(() => import('pages/dashboard')));
 
 // render - utilities
 const Typography = Loadable(lazy(() => import('pages/components-overview/Typography')));
-const RecentActivities = Loadable(lazy(() => import('pages/components-overview/RecentActivities')));
+const Sdmayoral = Loadable(lazy(() => import('pages/components-overview/sd-mayoral')));
 const RunnerForm = Loadable(lazy(() => import('pages/components-overview/RunnerForm')));
 const ExampleForm = Loadable(lazy(() => import('pages/components-overview/ExampleForm')));
 const Color = Loadable(lazy(() => import('pages/components-overview/Color')));
@@ -48,16 +48,8 @@ const MainRoutes = {
       element: <Typography />
     },
     {
-      path: 'Activities',
-      element: <RecentActivities />
-    },
-    {
-      path: 'runner',
-      element: <RunnerForm />
-    },
-    {
-      path: 'example-form',
-      element: <ExampleForm />
+      path: 'sd-mayoral',
+      element: <Sdmayoral />
     },
     {
       path: 'icons/ant',
