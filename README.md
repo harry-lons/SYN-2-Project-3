@@ -1,6 +1,7 @@
 ## Syn 2 Project 3: Website idea (Rate my Politician?)
 # Install
 ``` npm i ```
+
 ``` npm start ```
 # Summary
 ## By- Harry, Rikki, Nina, Megan, Machaela
