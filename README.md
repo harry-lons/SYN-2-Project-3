@@ -1,4 +1,8 @@
 ## Syn 2 Project 3: Website idea (Rate my Politician?)
+# Install
+``` npm i ```
+``` npm start ```
+# Summary
 ## By- Harry, Rikki, Nina, Megan, Machaela
 
 Our driving question is: Could voters utilize a forum designed to educate themselves on politicians’ environmental stances and beliefs? Because our topic for project two was centered around policy and politics, we were inspired to create a platform that would reflect some of the conceptual issues surrounding official elections and campaigns. By creating an accessible website that outlines politicians’ environmental stances and goals in their coming elections in a time where misinformation surrounding political candidates is at an all-time high. The page would consist of several subsections, including their thoughts behind various issues related to the environment, such as public transportation, green infrastructure, renewable energy initiatives, carbon tax and Green New Deal policy support, etc. 
